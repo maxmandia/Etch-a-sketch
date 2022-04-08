@@ -1,5 +1,5 @@
 function changeSize(input) {
-  if (input >= 100) {
+  if (input <= 100) {
     populateBoard(input);
   } else {
     console.log("buggin");
